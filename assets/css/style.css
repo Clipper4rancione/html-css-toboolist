@@ -11,7 +11,7 @@ body{
 }
 
 #btn-container{
-   width: 90%;
+   width: 70%;
    max-width: 1200px;
    margin: 40px auto 3px auto;
    background-color: white;
@@ -27,8 +27,8 @@ a{
 
 #list-container{
    background-color: white;
-   width: 90%;
-   height: 500px;
+   width: 70%;
+   height: 600px;
    max-width: 1200px;
    padding: 15px;
    margin: auto;
@@ -38,6 +38,7 @@ span.category{
    width: 55px;
    height: 23px;
    padding: 5px;
+   margin-left: 5px;
 
    font-family: 'Roboto', sans-serif;
    font-size: 10px;
@@ -111,6 +112,45 @@ div.button.white{
 
 /* LISTA */
 
+
+.list-title::before{
+   content: '\25BE';
+}
+
 span.category.editorial{
    background-color: #46ADF1;
+}
+span.category.goals{
+   background-color: #9C72E4;
+}
+span.category.recruiting{
+background-color: #64C0A9;
+}
+span.category.mobile{
+   background-color: #F29E32;
+}
+span.category.website{
+   background-color: #D763A1;
+}
+
+p.list-voice{
+   font-family: 'Roboto', sans-serif;
+}
+
+span.roundbox.check{
+   color: lightgreen;
+}
+
+span.roundbox.nope{
+   color: red;
+}
+
+span.roundbox{
+   width: 20px;
+   height: 15px;
+   padding: 5px;
+   margin-right: 5px;
+   border: 1px solid;
+   border-radius: 50%;
+   
 }
