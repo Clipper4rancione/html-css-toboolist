@@ -70,7 +70,7 @@ header{
    font-weight: 1000;
    
 }
-
+/* /HEADER */
 
 /* MAIN */
 
@@ -117,22 +117,6 @@ div.button.white{
    content: '\25BE';
 }
 
-span.category.editorial{
-   background-color: #46ADF1;
-}
-span.category.goals{
-   background-color: #9C72E4;
-}
-span.category.recruiting{
-background-color: #64C0A9;
-}
-span.category.mobile{
-   background-color: #F29E32;
-}
-span.category.website{
-   background-color: #D763A1;
-}
-
 p.list-voice{
    font-family: 'Roboto', sans-serif;
 }
@@ -154,3 +138,25 @@ span.roundbox{
    border-radius: 50%;
    
 }
+
+/* CATEGORIE LISTA */
+span.category.editorial{
+   background-color: #46ADF1;
+}
+span.category.goals{
+   background-color: #9C72E4;
+}
+span.category.recruiting{
+background-color: #64C0A9;
+}
+span.category.mobile{
+   background-color: #F29E32;
+}
+span.category.website{
+   background-color: #D763A1;
+}
+span.category.sales{
+   background-color: #B0C926;
+}
+/* /CATEGORIE LISTA */
+
