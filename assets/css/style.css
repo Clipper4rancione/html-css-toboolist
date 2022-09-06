@@ -51,11 +51,31 @@ header{
 
 }
 
-.button{
-   width: 70px;
+div.button{
+   width: 75px;
    height: 25px;
+
+   border: 2px solid white;
    border-radius: 5px;
+
+   padding: 3px;
+   margin-top: 15px;
+   margin-left: 12px;
+   
    background-color: red;
+   font-size: 14px;
+   text-align: center;
+   
+   display: inline-block;
 }
 
-/* FOOTER */
+div.button.blue{
+   background-color: #46ADF1;
+   color: white;
+}
+
+div.button.white{
+   background-color: white;
+   border-color: lightgray;
+   color: lightgray;
+}
