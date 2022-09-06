@@ -25,13 +25,19 @@ a{
    text-decoration: none;
 }
 
+li{
+   list-style: none;
+}
+
 #list-container{
    background-color: white;
    width: 70%;
    height: 600px;
    max-width: 1200px;
-   padding: 15px;
+   padding: 30px;
    margin: auto;
+
+   
 }
 
 span.category{
@@ -82,7 +88,7 @@ header{
 }
 
 div.button{
-   width: 75px;
+   width: 100px;
    height: 25px;
 
    border: 2px solid white;
